@@ -1,0 +1,108 @@
+.tweetBox{
+    /* border-bottom: 4px solid var(--twitter-backgroundColor); */
+    border-top: 2px solid var(--twitter-backgroundColor);
+    padding-bottom: 10px;
+    /* padding-right: 10px; */
+}
+
+.tweetBox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetBoxInputs{
+    display: flex;
+    padding: 20px;
+}
+
+.avatarImage{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.tweetBoxInputs > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.tweetbtnDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tweetBoxImgdiv{ 
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tweetBoxImgLabel1, .tweetBoxImgLabel2{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.tweetBoxIcon{
+    font-size: 25px !important; 
+    padding: 0px 5px !important;
+    
+}
+
+.tweetBoxIcon2{
+    font-size: 35px !important;
+    padding: 0px 5px !important;
+
+}
+
+.tweetBoxIcon:hover, .tweetBoxIcon2:hover{
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.tweetBoxImgName{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: rgb(156, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.clearBtn{
+    cursor: pointer !important;
+    color: #202020 !important;
+    font-weight: 700 !important;
+}
+
+.tweetBtn{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--twitter-color);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.imageInput{
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: block;
+}

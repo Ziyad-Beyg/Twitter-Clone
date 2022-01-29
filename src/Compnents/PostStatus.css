@@ -1,0 +1,51 @@
+.poststatus{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.retweet{
+    display: flex;
+    align-items: center;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+}
+
+.statusText{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.comment:hover{
+    color: var(--twitter-color) !important;
+    transition: color 100ms ease-out;
+    cursor: pointer;
+}
+
+.retweet:hover{
+    color: #38B261 !important;
+    transition: color 100ms ease-out;
+    cursor: pointer;
+}
+
+.like:hover{
+    color: #E32227 !important;
+    cursor: pointer;
+    transition: color 100ms ease-out;
+}
+
+.share:hover{
+    color: var(--twitter-color) !important;
+    cursor: pointer;
+    transition: color 100ms ease-out;
+}

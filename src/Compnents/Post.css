@@ -1,0 +1,66 @@
+.post{
+    height: auto;
+    border-top: 2px solid var(--twitter-backgroundColor);
+    border-bottom: 2px solid var(--twitter-backgroundColor);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.widthandHeight{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.postImageDiv{
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.postImage{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.postCol1{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 15%;
+}
+.postCol2{
+    padding: 10px;
+    /* border: 1px solid red; */
+    width: 85%;
+}
+
+.postBadge{
+    color: var(--twitter-color) !important;
+    font-size: 18px !important;
+}
+
+.userUIDPost{
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.postHeaderText{
+    margin-bottom: 10px;
+}
+
+.postBodyDescription{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    line-height: 1.2;
+}
+
+.postImage{
+    padding-bottom: 10px !important;
+    /* border-bottom: 1px solid var(--twitter-backgroundColor); */
+}
